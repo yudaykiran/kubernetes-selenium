@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io: /$1
 spec:
   rules:
-    - host: selenium.dev.eon.com
+    - host: my.selenium.com
       http:
         paths:
           - path: /
